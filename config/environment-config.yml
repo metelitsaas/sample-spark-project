@@ -1,0 +1,8 @@
+prod:
+  master: yarn
+  source_schema: prod_spark
+  target_schema: prod_spark
+dev:
+  master: local
+  source_schema: test_spark
+  target_schema: test_spark
